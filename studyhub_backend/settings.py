@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'projects',
     'collaboration'
     'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 
