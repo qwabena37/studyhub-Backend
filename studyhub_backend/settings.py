@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'accounts',
     'projects',
     'collaboration'
+    'rest_framework',
 ]
 
 
