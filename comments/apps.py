@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
-
-class CollaborationConfig(AppConfig):
-    name = 'collaboration'
+class CommentsConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'comments'
