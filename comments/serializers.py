@@ -1,7 +1,9 @@
 from rest_framework import serializers
-from .models import Collaboration
+from .models import Comment
 
-class CollaborationSerializer(serializers.ModelSerializer):
+class CommentSerializer(serializers.ModelSerializer):
+    user_name = serializers.CharField(source="user.username", read_only=True)
+
     class Meta:
-        model = Collaboration
-        fields = ['id', 'user', 'project', 'joined_at']
+        model = Comment
+        fields = ["id", "project", "user", "user_name", "text", "created_at"]
