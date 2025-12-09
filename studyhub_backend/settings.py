@@ -66,7 +66,7 @@ SIMPLE_JWT = {
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
 }
 
-WSGI_APPLICATION = 'studyhub.wsgi.application'
+WSGI_APPLICATION = 'studyhub_backend.wsgi.application'
 
 DATABASES = {
     "default": {
@@ -77,4 +77,6 @@ DATABASES = {
 
 STATIC_URL = "static/"
 AUTH_USER_MODEL = 'accounts.User'
+ROOT_URLCONF = 'studyhub.urls'
+
 
