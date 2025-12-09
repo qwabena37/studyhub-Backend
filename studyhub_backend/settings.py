@@ -77,6 +77,6 @@ DATABASES = {
 
 STATIC_URL = "static/"
 AUTH_USER_MODEL = 'accounts.User'
-ROOT_URLCONF = 'studyhub.urls'
+ROOT_URLCONF = 'studyhub_backend.urls'
 
 
