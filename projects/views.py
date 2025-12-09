@@ -1,10 +1,9 @@
-from django.shortcuts import render
 from rest_framework import generics, permissions
 from .models import Project
-from .Serializers import ProjectSerializer
+from .serializers import ProjectSerializer
 
 class ProjectListCreateView(generics.ListCreateAPIView):
-    queryset = Project.objects.all()
+    queryset = Project.objects.all().order_by("-created_at")
     serializer_class = ProjectSerializer
     permission_classes = [permissions.IsAuthenticated]
 
