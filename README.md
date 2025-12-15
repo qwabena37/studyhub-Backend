@@ -27,8 +27,7 @@ ________________________________________
 •	Django 5+
 •	Django REST Framework
 •	SimpleJWT
-•	PostgreSQL / SQLite (Dev)
-•	Docker Support
+•	SQLite (Dev)
 •	Swagger / Redoc docs
 ________________________________________
 📂 Project Structure

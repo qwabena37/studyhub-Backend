@@ -1,6 +1,8 @@
 from rest_framework import generics, permissions
 from .models import Comment
 from .serializers import CommentSerializer
+from rest_framework.permissions import IsAuthenticated, AllowAny
+from rest_framework import viewsets
 
 class CommentListCreateView(generics.ListCreateAPIView):
     serializer_class = CommentSerializer
