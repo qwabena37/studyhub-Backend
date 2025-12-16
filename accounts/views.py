@@ -1,3 +1,6 @@
+import os
+print("ACCOUNTS DIR CONTENTS:", os.listdir(os.path.dirname(__file__)))
+
 from rest_framework import generics, permissions, viewsets
 from .serializers import UserSerializer, RegisterSerializer
 from django.contrib.auth import get_user_model
