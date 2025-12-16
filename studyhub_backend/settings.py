@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "django_filters",
     "drf_yasg",
+    'rest_framework_simplejwt',
 
     # Local apps
     "accounts",
