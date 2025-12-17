@@ -1,3 +1,7 @@
+Introduction
+
+During our era, we had to walk several miles to homes of friends to discuss assignments or projects from school. Sometimes you arrive unwelcomed and have to return back to your home. With the advancement in Technology today, as my project, I planned on developing the backend api for an online educational platform where students can register and login to share projects, collaborate with other colleagues to seek insight on projects or topics, without needing to walk to someone's home unwelcomed. This gives rise to an online collaborative and study platform for students - 📚 StudyHub
+
 📚 StudyHub Backend API
 A collaborative learning platform backend built with Django REST Framework, enabling students to register, create project teams, collaborate, and share comments.
 This backend powers StudyHub — a platform where students connect, form teams, upload projects, and communicate efficiently to share ideas on projects.
