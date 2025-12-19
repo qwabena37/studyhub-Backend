@@ -80,3 +80,7 @@ python manage.py migrate
 python manage.py createsuperuser
 6️⃣ Start Server
 python manage.py runserver
+
+
+
+{"username":["Vanessa"],"password":["Abena123."]}

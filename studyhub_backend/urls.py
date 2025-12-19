@@ -25,7 +25,7 @@ from rest_framework_simplejwt.views import (
 )
 urlpatterns = [
     path("", lambda request: HttpResponse("Welcome to Studyhub API!")),
-     path("api/login/", TokenObtainPairView.as_view(), name="login"),
+    path("api/login/", TokenObtainPairView.as_view(), name="login"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     path("admin/", admin.site.urls),
     path("api/accounts/", include("accounts.urls")),
