@@ -81,6 +81,16 @@ python manage.py createsuperuser
 6️⃣ Start Server
 python manage.py runserver
 
+Sample Users and Projects
 
+{"username":"David","password":"kofi123"}
+{
+  "title": "Tech in Africa",
+  "description": "Positve Effect of Tech in Africa"
+}
 
-{"username":["Vanessa"],"password":["Abena123."]}
+{"username":"John","password":"john123"}
+{
+  "title": "Females in Tech",
+  "description": "Essence of Involving Females in Tech in Africa"
+}
