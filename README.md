@@ -1,8 +1,3 @@
-Below is a **clean, industry-standard `README.md`** rewritten and properly structured using best practices (clear sections, concise language, Markdown formatting, emojis used sparingly, and developer-friendly tone).
-You can **copy-paste this directly** into your `README.md`.
-
----
-
 # 📚 StudyHub Backend API
 
 A collaborative learning platform backend built with **Django REST Framework**, enabling students to register, create projects, collaborate with peers, and exchange ideas through comments.
