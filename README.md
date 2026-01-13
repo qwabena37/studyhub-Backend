@@ -223,12 +223,3 @@ Please fork the repository, create a feature branch, and submit a pull request.
 This project is licensed under the **MIT License**.
 
 ---
-
-If you want, I can also:
-
-* Add **badges** (build, license, Django, DRF)
-* Optimize this README for **recruiters & DevOps roles**
-* Create a **frontend + backend combined README**
-* Add **Docker, CI/CD, and deployment sections**
-
-Just tell me 👍
